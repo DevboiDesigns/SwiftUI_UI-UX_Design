@@ -29,6 +29,9 @@
 		0C862D232652147F0026DB92 /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D222652147F0026DB92 /* RecipeRatingView.swift */; };
 		0C862D25265214EC0026DB92 /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D24265214EC0026DB92 /* RecipeCookingView.swift */; };
 		0C862D272652153E0026DB92 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D262652153E0026DB92 /* RecipeDetailView.swift */; };
+		0C862D2926521BBC0026DB92 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D2826521BBC0026DB92 /* RipeningView.swift */; };
+		0C862D2B265222C30026DB92 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D2A265222C30026DB92 /* RipeningModel.swift */; };
+		0C862D2D2652231C0026DB92 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D2C2652231C0026DB92 /* RipeningData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		0C862D222652147F0026DB92 /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		0C862D24265214EC0026DB92 /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		0C862D262652153E0026DB92 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		0C862D2826521BBC0026DB92 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		0C862D2A265222C30026DB92 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		0C862D2C2652231C0026DB92 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 				0C862D122651F4B20026DB92 /* HeaderData.swift */,
 				0C862D1A26520BB60026DB92 /* FactData.swift */,
 				0C862D1E26520E550026DB92 /* RecipeData.swift */,
+				0C862D2C2652231C0026DB92 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 				0C862D102651F4660026DB92 /* HeaderModel.swift */,
 				0C862D1826520B7E0026DB92 /* FactModel.swift */,
 				0C862D1C26520DCA0026DB92 /* RecipeModel.swift */,
+				0C862D2A265222C30026DB92 /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				0C862D0A2651E7B20026DB92 /* AppView.swift */,
+				0C862D2826521BBC0026DB92 /* RipeningView.swift */,
 				0C862D262652153E0026DB92 /* RecipeDetailView.swift */,
 				0C862D042651E77A0026DB92 /* AvodcadosView.swift */,
 				0C862D162652089C0026DB92 /* FactsView.swift */,
@@ -225,6 +234,7 @@
 				0C862D0B2651E7B20026DB92 /* AppView.swift in Sources */,
 				0C862D072651E7920026DB92 /* RipeningStagesView.swift in Sources */,
 				0C862D232652147F0026DB92 /* RecipeRatingView.swift in Sources */,
+				0C862D2D2652231C0026DB92 /* RipeningData.swift in Sources */,
 				0C862D0D2651E9EB0026DB92 /* Constants.swift in Sources */,
 				0C862D052651E77A0026DB92 /* AvodcadosView.swift in Sources */,
 				0C862D272652153E0026DB92 /* RecipeDetailView.swift in Sources */,
@@ -232,6 +242,8 @@
 				0C862CE92651E2600026DB92 /* AvoLifeApp.swift in Sources */,
 				0C862D1B26520BB60026DB92 /* FactData.swift in Sources */,
 				0C862D152651F7850026DB92 /* DishesView.swift in Sources */,
+				0C862D2926521BBC0026DB92 /* RipeningView.swift in Sources */,
+				0C862D2B265222C30026DB92 /* RipeningModel.swift in Sources */,
 				0C862D132651F4B20026DB92 /* HeaderData.swift in Sources */,
 				0C862D1F26520E550026DB92 /* RecipeData.swift in Sources */,
 				0C862D172652089C0026DB92 /* FactsView.swift in Sources */,
