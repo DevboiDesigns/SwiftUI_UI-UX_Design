@@ -34,7 +34,7 @@ struct AvodcadosView: View {
                     .shadow(color: Color(blackTranDark), radius: 4, x: 0, y: 4)
                 
                 Text("""
-                    Creamy, green, and full of nutrients! Avocado is a powerhouse ingredient at any meal. Enjoy these handpicked avocado recipes for breakfast, lunch, dinner & more!
+    Creamy, green, and full of nutrients! Avocado is a powerhouse ingredient at any meal. Enjoy these handpicked avocado recipes for breakfast, lunch, dinner & more!
     """)
                     .lineLimit(nil)
                     .font(.system(.headline, design: .serif))

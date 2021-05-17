@@ -9,5 +9,6 @@ import Foundation
 
 
 let blackTranDark = "ColorBlackTransparentDark"
+let blackTranLight = "ColorBlackTransparentLight"
 
 let greenLight = "ColorGreenLight"

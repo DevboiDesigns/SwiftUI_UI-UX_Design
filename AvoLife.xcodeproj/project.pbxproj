@@ -13,7 +13,6 @@
 		0C862CF02651E2620026DB92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C862CEF2651E2620026DB92 /* Preview Assets.xcassets */; };
 		0C862CFC2651E2AB0026DB92 /* RecipeData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C862CF72651E2AA0026DB92 /* RecipeData.txt */; };
 		0C862CFD2651E2AB0026DB92 /* RipeningData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C862CF82651E2AB0026DB92 /* RipeningData.txt */; };
-		0C862CFE2651E2AB0026DB92 /* HeaderData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C862CF92651E2AB0026DB92 /* HeaderData.txt */; };
 		0C862CFF2651E2AB0026DB92 /* FactData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C862CFA2651E2AB0026DB92 /* FactData.txt */; };
 		0C862D002651E2AB0026DB92 /* Avocados.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C862CFB2651E2AB0026DB92 /* Avocados.txt */; };
 		0C862D052651E77A0026DB92 /* AvodcadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D042651E77A0026DB92 /* AvodcadosView.swift */; };
@@ -21,6 +20,10 @@
 		0C862D092651E7A30026DB92 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D082651E7A30026DB92 /* SettingsView.swift */; };
 		0C862D0B2651E7B20026DB92 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D0A2651E7B20026DB92 /* AppView.swift */; };
 		0C862D0D2651E9EB0026DB92 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D0C2651E9EB0026DB92 /* Constants.swift */; };
+		0C862D0F2651EF780026DB92 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D0E2651EF780026DB92 /* HeaderView.swift */; };
+		0C862D112651F4660026DB92 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D102651F4660026DB92 /* HeaderModel.swift */; };
+		0C862D132651F4B20026DB92 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D122651F4B20026DB92 /* HeaderData.swift */; };
+		0C862D152651F7850026DB92 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C862D142651F7850026DB92 /* DishesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +35,6 @@
 		0C862CF12651E2620026DB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C862CF72651E2AA0026DB92 /* RecipeData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RecipeData.txt; sourceTree = "<group>"; };
 		0C862CF82651E2AB0026DB92 /* RipeningData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RipeningData.txt; sourceTree = "<group>"; };
-		0C862CF92651E2AB0026DB92 /* HeaderData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HeaderData.txt; sourceTree = "<group>"; };
 		0C862CFA2651E2AB0026DB92 /* FactData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FactData.txt; sourceTree = "<group>"; };
 		0C862CFB2651E2AB0026DB92 /* Avocados.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Avocados.txt; sourceTree = "<group>"; };
 		0C862D042651E77A0026DB92 /* AvodcadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvodcadosView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,10 @@
 		0C862D082651E7A30026DB92 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		0C862D0A2651E7B20026DB92 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		0C862D0C2651E9EB0026DB92 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0C862D0E2651EF780026DB92 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0C862D102651F4660026DB92 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		0C862D122651F4B20026DB92 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		0C862D142651F7850026DB92 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +102,10 @@
 			children = (
 				0C862CFB2651E2AB0026DB92 /* Avocados.txt */,
 				0C862CFA2651E2AB0026DB92 /* FactData.txt */,
-				0C862CF92651E2AB0026DB92 /* HeaderData.txt */,
 				0C862CF72651E2AA0026DB92 /* RecipeData.txt */,
 				0C862CF82651E2AB0026DB92 /* RipeningData.txt */,
 				0C862D0C2651E9EB0026DB92 /* Constants.swift */,
+				0C862D122651F4B20026DB92 /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -107,6 +113,7 @@
 		0C862D022651E74D0026DB92 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0C862D102651F4660026DB92 /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,9 +123,11 @@
 			children = (
 				0C862D0A2651E7B20026DB92 /* AppView.swift */,
 				0C862D042651E77A0026DB92 /* AvodcadosView.swift */,
+				0C862CEA2651E2600026DB92 /* ContentView.swift */,
+				0C862D142651F7850026DB92 /* DishesView.swift */,
+				0C862D0E2651EF780026DB92 /* HeaderView.swift */,
 				0C862D062651E7920026DB92 /* RipeningStagesView.swift */,
 				0C862D082651E7A30026DB92 /* SettingsView.swift */,
-				0C862CEA2651E2600026DB92 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,7 +195,6 @@
 				0C862CED2651E2620026DB92 /* Assets.xcassets in Resources */,
 				0C862CFC2651E2AB0026DB92 /* RecipeData.txt in Resources */,
 				0C862CFF2651E2AB0026DB92 /* FactData.txt in Resources */,
-				0C862CFE2651E2AB0026DB92 /* HeaderData.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,12 +206,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C862D092651E7A30026DB92 /* SettingsView.swift in Sources */,
+				0C862D112651F4660026DB92 /* HeaderModel.swift in Sources */,
 				0C862CEB2651E2600026DB92 /* ContentView.swift in Sources */,
 				0C862D0B2651E7B20026DB92 /* AppView.swift in Sources */,
 				0C862D072651E7920026DB92 /* RipeningStagesView.swift in Sources */,
 				0C862D0D2651E9EB0026DB92 /* Constants.swift in Sources */,
 				0C862D052651E77A0026DB92 /* AvodcadosView.swift in Sources */,
 				0C862CE92651E2600026DB92 /* AvoLifeApp.swift in Sources */,
+				0C862D152651F7850026DB92 /* DishesView.swift in Sources */,
+				0C862D132651F4B20026DB92 /* HeaderData.swift in Sources */,
+				0C862D0F2651EF780026DB92 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
