@@ -1,5 +1,5 @@
 
-Vibrating display of Recipe App with a focus for the Avocado lover. Template design of recipe app.
+Vibrant display of Recipe App with a focus for the Avocado lover. Template design of recipe app.
 
 
 
